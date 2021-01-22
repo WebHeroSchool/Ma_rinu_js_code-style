@@ -39,7 +39,6 @@ let my-dog; // не может включать дефис
 **Хороший пример**
 
 ```
-js
   const username = 'Mark';
   const greeting = `Oh hi ${username}!`
 ```
@@ -47,7 +46,6 @@ js
 **Плохой пример**
 
 ```
-js
   const username = "John";
 ```
 
@@ -59,7 +57,6 @@ js
 **Хороший пример**
 
 ```
-js
   const foo = function bar() {
     ...
   };
@@ -70,7 +67,6 @@ js
 **Плохой пример**
 
 ```
-js
   function foo() {
     ...
   };
@@ -87,7 +83,6 @@ js
 **Хороший пример**
 
 ```
-js
   if (answer === 4) {
     console.log(true);
   }
@@ -99,7 +94,6 @@ js
 **Плохой пример**
 
 ```
-js
   if (answer == 4) {
     console.log(true);
   }
