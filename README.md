@@ -111,18 +111,18 @@ let my-dog; // не может включать дефис
 
 ```
 let user = {     // объект
-  name: "John",  // под ключом "name" хранится значение "John"
+  name: 'John',  // под ключом "name" хранится значение "John"
   age: 30        // под ключом "age" хранится значение 30
 };
 ```
 **Плохой пример:**
 ```
 let user = {    
-  name: "John",  
+  name: 'John',  
   age: 30       
 };
 let user = {     
-  "name": "John",  
+  "name": 'John',  
   age: 30        
 };
 ```
@@ -137,6 +137,7 @@ let user = {
 let book = [];
 let books = ["Map", "Love and hate", "Good cook"];
  ```
+
  **Плохой пример:**
  ```
  let book = [ , ]; //"дыра" в массиве
